@@ -1,6 +1,6 @@
 body{
   background: rgb(236,242,154);
-  background: linear-gradient(90deg, rgba(236,242,154,1) 9%, rgba(236,109,173,1) 36%, rgba(204,127,255,1) 70%, rgba(106,123,231,1) 100%);
+  background: linear-gradient(90deg, rgba(236,242,154,1) 9%, rgba(236,109,173,1) 31%, rgba(204,127,255,1) 50%, rgba(97,55,236,1) 73%, rgba(106,123,231,1) 100%);
 }
 
 .App{
