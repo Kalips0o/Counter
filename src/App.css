@@ -1,0 +1,118 @@
+body{
+  background: rgb(236,242,154);
+  background: linear-gradient(90deg, rgba(236,242,154,1) 9%, rgba(236,109,173,1) 36%, rgba(204,127,255,1) 70%, rgba(106,123,231,1) 100%);
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Wrapper {
+  background-color: rgba(255, 255, 255, 0.53);
+  text-align: center;
+  width: 22rem;
+  height: 19rem;
+  border: 0.25rem solid #1f1d1d;
+  border-radius: 1rem;
+ /* background-color: #2f8c72;*/
+  margin-top: 10rem;
+  margin-right: 3rem;
+
+}
+.settings{
+  text-align: center;
+ /* background-color: #2f8c72;*/
+  width: 19rem;
+  height: 10.5rem;
+  border-radius: 1rem;
+  margin: 1rem auto;
+  border: 0.25rem solid #1f1d1d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100%;
+}
+.header{
+  text-align: center;
+ /* background-color: #2f8c72;*/
+  width: 19rem;
+  height: 10.5rem;
+  border-radius: 1rem;
+  margin: 1rem auto;
+  border: 0.25rem solid #1f1d1d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 300%;
+  font-weight:bold;
+}
+.buttons{
+  border: 0.25rem solid #1f1d1d;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 19rem;
+  height: 4.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+  color: white;
+}
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+
+}
+.input{
+  width: 9rem;
+  border: 0.2rem solid #1f1d1d;
+  border-radius: 0.5rem;
+  color: #1f1d1d;
+}
+.values{
+  margin-left: 0.65rem;
+  width: 10rem;
+  color: #1f1d1d;
+  font-weight:bold;
+}
+.setButton{
+  border: 0.25rem solid #1f1d1d;
+  width: 19rem;
+  height: 4.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counterEqualMaxValue{
+  color: #8d2929;
+  font-weight:bold;
+}
+.inputError {
+  width: 9rem;
+  border: 0.2rem solid #8d2929;
+  border-radius: 0.5rem;
+  background-color: #f1a3a3;
+}
+.inputError:focus{
+  outline: 0;
+}
+.errorDisplay{
+  color: #8d2929;
+  font-size: 70%;
+}
+.attentionMessage{
+  font-size: 70%;
+  color: #1f1d1d;
+}
+.defaultDisplay{
+  color: #1f1d1d
+}
+.Mui-disabled span{
+  color:#fff;
+}
+
