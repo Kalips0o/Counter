@@ -1,7 +1,9 @@
 import React, {useEffect, useState} from 'react';
-import './App.css';
+import './App.scss';
 import {Wrapper} from "./Wrapper";
 import {Settings} from "./Settings";
+import rocket from "./img/rocket.svg"
+import astronaut from "./img/astronaut.svg"
 
 
 function App() {
@@ -66,6 +68,7 @@ function App() {
 
     return (
         <div className={"App"}>
+            <div className={"stars"}/>
             <Wrapper enlargeCounter={enlargeCounter}
                      resetCounter={resetCount}
                      counter={counter}
@@ -82,7 +85,14 @@ function App() {
                       disableButton={disableButton}
                       isDisabled={isDisabled}/>
 
+            <div className={"objects"}><img className={"object_rocket"} src={rocket} width="50px"/>
+                <div className="box_astronaut">
+                    <img className={"object_astronaut"} src={astronaut}
+                         width="100px" alt="astronaut"/>
+                </div>
+            </div>
         </div>
+
 
     );
 }
