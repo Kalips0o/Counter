@@ -230,32 +230,22 @@ body {
 
 
 .object_rocket {
-  z-index: 95;
-  position: absolute;
-  transform: translateY(-50px);
-  top: 40%;
-  right: 95%;
-  pointer-events: none;
-  animation: rocket-movement 200s linear;
-}
-
-@-moz-keyframes rocket-movement {
-  100% {
-    -moz-transform: translate(1000px, -600px);
-  }
-}
-
-@-webkit-keyframes rocket-movement {
-  100% {
-    -webkit-transform: translate(1000px, -600px);
-  }
+    z-index: 95;
+    position: absolute;
+    transform: translateY(-50px);
+    top: 40%;
+    right: 100%;
+    pointer-events: none;
+    animation: rocket-movement 60s linear;
 }
 
 @keyframes rocket-movement {
-  100% {
-    transform: translate(1000px, -600px);
-  }
+    100% {
+        transform: translate(600px, -300px);
+    }
 }
+
+
 
 
 @keyframes twinkle {
