@@ -1,6 +1,7 @@
 body {
   background: url("img/backgroundImg.jpg") no-repeat center/cover;
   height: 100vh;
+
 }
 
 
@@ -23,8 +24,9 @@ body {
   height: 19rem;
   border: 0.25rem solid #1f1d1d;
   border-radius: 1rem;
-  margin-top: 10rem;
+  margin-top: 8rem;
   margin-right: 3rem;
+  margin-left: 3rem;
   box-shadow: 0 0 10px 5px #fff;
   animation: pulse 2s infinite;
 }
@@ -309,17 +311,23 @@ body {
 
 
 @media screen and (max-width: 768px) {
+
   .App {
     flex-direction: column;
     padding: 0;
+    height: 100vh;
+
+
   }
 
   .Wrapper {
-    margin: 3rem auto;
+    margin: 2rem auto;
     position: initial;
+
 
   }
   .objects img {
     display: none;
   }
+
 }
